@@ -1,0 +1,12 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+<h1>Home page</h1>
+<h2> Email подтвержден </h2>
+<hr>
+<nav>
+    <ul>
+        <li><a href="{% url 'users:login' %}">Login</a></li>
+    </ul>
+  </nav>
+{% endblock %}
